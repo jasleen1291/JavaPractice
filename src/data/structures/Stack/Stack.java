@@ -26,6 +26,12 @@ final LinkedList<T> list;
             System.out.println("There is no item to pop");
     }
 
+    public Node extractTop()
+    {
+        Node t=list.head();
+        pop();
+        return t;
+    }
     public T top()
     {
         if(isEmpty())

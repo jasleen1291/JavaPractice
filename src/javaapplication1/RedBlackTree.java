@@ -1,4 +1,4 @@
-package data.structure.RedBlackTree;
+package javaapplication1;
 
 
 enum Color {

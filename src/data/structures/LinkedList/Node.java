@@ -29,7 +29,7 @@ public class Node<T> {
         this.key=key;
     }
     
-    public void next(Node node)
+    void next(Node node)
     {
         this.next=node;
     }
@@ -45,4 +45,10 @@ public class Node<T> {
     {
         return previous;
     }
+
+    @Override
+    public String toString() {
+        return key.toString(); //To change body of generated methods, choose Tools | Templates.
+    }
+    
 }
