@@ -6,6 +6,8 @@
 
 package javaapplication1;
 
+import data.structures.RedBlackTree.RedBlackTree;
+import data.structures.RedBlackTree.RBNode;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
