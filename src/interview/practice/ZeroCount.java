@@ -36,15 +36,7 @@ public class ZeroCount {
 
     }
 
-    public static int[] partition(int a[])
-    {
     
-       
-        Set A=new TreeSet<>();
-        Set B=new TreeSet<>();
-        
-        return a;
-    }
     public static void main(String args[]) {
 
         System.out.println(count(new int[]{0}, 0, 0));
